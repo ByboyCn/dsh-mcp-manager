@@ -5,3 +5,5 @@ client/client.js
 *.log
 *.tsbuildinfo
 .DS_Store
+
+*.tgz
