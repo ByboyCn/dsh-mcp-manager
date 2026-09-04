@@ -1,0 +1,7 @@
+node_modules/
+.pnpm-store/
+lib/
+client/client.js
+*.log
+*.tsbuildinfo
+.DS_Store
