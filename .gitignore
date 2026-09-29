@@ -1,7 +1,8 @@
 node_modules/
 .pnpm-store/
-lib/
-client/client.js
+# 构建产物必须入库:DSH 按 git 追踪的文件安装插件,缺少 lib/ 会导致 failed to import
+# lib/
+# client/client.js
 *.log
 *.tsbuildinfo
 .DS_Store
