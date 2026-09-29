@@ -4,7 +4,7 @@
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Button, DisclosureRow, IconDatabaseOutline16, Input, Pill, StateDot } from '@deepseek-ai/dsh-client-ui-primitives'
+import { Button, DisclosureRow, IconDatabaseOutlineMedium, Input, Pill, StateDot } from '@deepseek-ai/dsh-client-ui-primitives'
 import {
   addServer,
   fetchServers,
@@ -253,7 +253,7 @@ export function McpSection({ t }: { t: Translate }): JSX.Element {
             )}
             {server.toolNames.length > 0 && (
               <DisclosureRow
-                icon={<IconDatabaseOutline16 />}
+                icon={<IconDatabaseOutlineMedium />}
                 title={`${t('tools')} (${server.toolNames.length})`}
                 expandable
                 open={expanded.has(server.id)}
